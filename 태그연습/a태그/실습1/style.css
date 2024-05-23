@@ -1,0 +1,27 @@
+.box {
+  width: 400px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-green {
+  color: green;
+  text-decoration: none;
+}
+
+.line-blue {
+  border: 5px solid blue;
+}
+
+.line-green {
+  border: 5px solid green;
+}
+
+img {
+  width: 300px;
+  text-align: center;
+}
