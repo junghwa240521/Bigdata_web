@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  text-align: center;
+  margin: 200px auto;
+}
+
+.border-line {
+  width: 500px;
+  border: 10px solid white;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px 0;
+}
+.text-bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+img{
+  text-align: center;
+}
