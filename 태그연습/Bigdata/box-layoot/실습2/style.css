@@ -1,0 +1,18 @@
+img {
+  height: 90px;
+}
+
+.global-header {
+  background-color: gray;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+.menu-list {
+display: flex;
+}
