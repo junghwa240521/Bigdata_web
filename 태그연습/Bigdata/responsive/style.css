@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+.global-header 
+.gobal-footer {
+  color: #fff;
+  font-size: 36px;
+  padding: 30px 0;
+  background-color: blue;
+}
+
+.back-img {
+  height: 500px;
+  background-image: url(./images/꽃.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-list{
+  display: flex;
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.card-list div {
+  width: 30%;
+  height: 200px;
+  /*margin: 50px 20px 40px 20px;*/
+  /*padding: 0px 100px 200px;*/
+  border: 2px solid blue;
+  /*text-align: center;*/
+}
+
+/*break poin : 1200px/ 768px
+  1200px 이상 : desktop
+  768px ~ 1200px : tablet
+  768dlgk : Mobile
+
+  1.max-width (Desktop-> Tablet -> Mobail) 최대
+  2.min-width (M -> T ->  D ) 최소
+*/
+
+/*최대 1200px / 1200px 이하부터 적용할 스타일*/
+@media screen and (max-width : 1200px) {
+  .global-header,
+  .gobal-footer {
+    font-size: 24px;
+    padding: 20px 0;
+    background-color: red;
+  }
+
+  .back-img {
+    height: 400px;
+    background-image: url(./images/달.jfif);
+  }
+  
+}
+@media screen and (max-width :768px) {
+  .global-header,
+  .gobal-footer {
+    font-size: 18px;
+    padding: 16px 0;
+    background-color: blue;
+  }
+
+  .back-img {
+    height: 320px;
+    background-image: url(./images/별사진.jfif);
+  }
+
+  .card-list{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card-list div {
+    width: 100%;
+    height: 160px;
+    /*margin: 50px 20px 40px 20px;*/
+    /*padding: 0px 100px 200px;*/
+    margin: 12px 0;
+    border: 2px solid blue;
+  }
+}
